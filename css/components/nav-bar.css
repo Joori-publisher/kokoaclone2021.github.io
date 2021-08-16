@@ -17,27 +17,16 @@
 }
 
 .nav__notification {
-  background-color: tomato;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  color: #fff;
-  font-weight: 600;
   position: absolute;
-}
-
-.nav__number {
-  width: 30px;
-  height: 30px;
-  border-radius: 15px;
   left: 15px;
   bottom: 15px;
 }
 
 .nav__dot {
-  width: 6px;
-  height: 6px;
-  border-radius: 3px;
-  right: -5px;
+  position: absolute;
+  width: 5px;
+  height: 5px;
+  border-radius: 50%;
   bottom: 30px;
+  left: 30px;
 }

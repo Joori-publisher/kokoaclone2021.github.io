@@ -6,6 +6,7 @@
 
 /*  Components */
 @import "components/status-bar.css";
+@import "components/badge.css";
 @import "components/nav-bar.css";
 @import "components/screen-header.css";
 @import "components/user-component.css";
@@ -13,8 +14,13 @@
 /* Screens */
 @import "screens/login.css";
 @import "screens/friends.css";
+@import "screens/find.css";
 
 body {
   color: #2e363e;
   font-family: "Open Sans", "Noto Sans KR", sans-serif;
+}
+
+.main-screen {
+  padding: 0 var(--horizontal-space);
 }
